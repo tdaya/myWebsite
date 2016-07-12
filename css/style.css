@@ -6,14 +6,6 @@
 	-webkit-box-sizing: border-box;
 }
 
-
-*:before,
-*:after{
-	-webkit-box-sizing: border-box;
-}
-.clearfix {
-  *zoom: 1;
-}
 html{
 	font-family: Helvetica, arial, sans-serif;
 	font-size: 12px;
@@ -26,6 +18,7 @@ body{
   display: table;
   line-height: 0;
   content: "";
+  
 }
 .clearfix:after {
   clear: both;
@@ -277,14 +270,14 @@ section{
 		display: block;
 	}
 }
-/* -----------------------------------------NAVIGATION END DONT FUCKING TOUCH THIS--------------------------------------------------- */
+/* -----------------------------------------NAVIGATION END --------------------------------------------------- */
 /* ---------PAGE STYLING------------ */
 
 
-.flex-tem{
+/* .flex-item{
 	background:white;
 }
-
+ */
 section{
 	display: flex; 
 	flex-wrap: wrap; /* there is wrap and no wrap, so that text does not crucnch up*/
@@ -338,11 +331,12 @@ form{
 }
 
 footer{
-	background-color:#3399ff;
+	background-image: -webkit-linear-gradient(#80059E 0%, #3399ff 100%);
 	color: white;
+	font-weight: bold;
 	text-align: center;
 	padding: 5px;
-	position: fixed;
 	bottom:0px; /*keeps footer at the bottom*/
 	width:100%;
 }
+

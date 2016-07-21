@@ -26,17 +26,22 @@ body{
 .container{
 	width: 80%;
 	margin: 0 auto;
+	
+
 }
 header{
 	width: 100%;
 	height: auto;
-	background: black;
+	background-image: -webkit-linear-gradient(#80059E 30%, #3399ff 140%);
+	position: fixed;
+	
 }
 .header-left,
 .header-right{
 	position: relative;
 	color: white;
 	float: left;
+	
 }
 .header-left{
 	width: 30%;
@@ -73,6 +78,7 @@ header{
 .header-right{
 	width: 70%;
 	text-align: right;
+	
 }
 #open{
 	display: none;
@@ -80,18 +86,22 @@ header{
 h1{
 	font-weight: 300;
 	line-height: 40px;
+	
 }
+
 a{
 	text-decoration: none;
 	color: white;
+
 }
 nav>a{
 	position: relative;
 	display: inline-block;
-	font-size: 13px;
-	line-height: 40px;
-	padding: 0 2em;
+	font-size: 15px;
+	line-height: 35px;
+	padding: 15px;
 	-webkit-transition: all .3s ease;
+	
 }
 nav>a:hover{
 	background: rgba(255,255,255,.9);
@@ -106,7 +116,9 @@ section{
 }
 
 #dayad{
-	background-image: -webkit-linear-gradient(#80059E 0%, #3399ff 100%);
+	background: black;
+	padding-top: 105px;
+	
 }
 .section-left,
 .section-right{
@@ -320,7 +332,7 @@ form{
 
 
 #submit{
-    background-color: #3399ff;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px 32px;
